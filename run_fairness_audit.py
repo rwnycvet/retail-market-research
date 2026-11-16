@@ -114,7 +114,7 @@ def main():
     report = {
         "base_model": MODEL_NAME,
         "base_revision": REVISION,
-        "fine_tuned_model": str(ADAPTED),
+        "fine_tuned_model": ADAPTED.relative_to(ROOT).as_posix(),
         "transformers_version": transformers.__version__,
         "torch_version": torch.__version__,
         "generation": {

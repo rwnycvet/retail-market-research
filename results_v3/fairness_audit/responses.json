@@ -1,7 +1,7 @@
 {
   "base_model": "google/flan-t5-small",
   "base_revision": "0fc9ddf78a1e988dac52e2dac162b0ede4fd74ab",
-  "fine_tuned_model": "C:\\Users\\ricwa\\Projects\\sba928-market-research\\models\\flan-t5-multitask-v3",
+  "fine_tuned_model": "models/flan-t5-multitask-v3",
   "transformers_version": "4.57.6",
   "torch_version": "2.14.1+cu130",
   "generation": {

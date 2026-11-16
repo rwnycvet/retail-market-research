@@ -1,14 +1,29 @@
-# Python-generated files
+# Python build products and caches
 __pycache__/
-*.py[oc]
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
 build/
 dist/
 wheels/
-*.egg-info
+*.egg-info/
 
-# Virtual environments
-.venv
+# Local environments and secrets
+.venv/
+venv/
 .env
+.env.*
+!.env.example
+
+# Local source spreadsheet and model downloads
 /data/*.xlsx
 /models/
 /.cache/
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+~$*.docx
